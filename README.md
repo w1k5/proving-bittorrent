@@ -1,9 +1,9 @@
-# cs357-s22-BitTorrent-M
-This is the shared repository for CS357 Final Project (Spring 22).
+# proving-bittorrent
+The final paper could be found <a href="https://github.com/w1k5/proving-bittorrent/blob/master/final_paper.pdf">here</a>.
 
-For the purposes of this project, three different agents were created: FairTorrent (``fairtorrent.py``), BitTorrent(``bittorrent.py``), and AngwyTorrent (``angwytorrent.py``).
+For the purposes of this project, three different agents were created: FairTorrent (``fairtorrent.py``), BitTorrent(``bittorrent.py``), and AngwyTorrent (``angwytorrent.py``). These agents were created for implementation and use with a BitTorrent simulator adapted from Sven Seuken, University of Zurich.
 
-Having entered the simulator directory, the following lines were used to run the program as seen in the experimental report:
+Having entered the simulator directory (not present in this repository due to permissions), the following lines were used to run the program as seen in the experimental report:
 
 ``python3 sim.py --numPieces=128 --blocksPerPiece=16 --minBw=16 --maxBw=32 --maxRound=1000 --iters=32 Seed,2 BitTorrent,9 Freerider,1``
 
